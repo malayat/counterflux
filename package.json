@@ -1,0 +1,37 @@
+{
+  "name": "counterflux",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://malayat.github.io/counterflux",
+  "keywords": [
+    "react",
+    "reflux",
+    "react-router",
+    "webpack",
+    "es6",
+    "es7"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malayat/counterflux.git"
+  },
+  "author": "Alejandro Ayala",
+  "license": "ISC",
+  "devDependencies": {
+    "react-scripts": "0.4.3"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-redux": "^4.0.5",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

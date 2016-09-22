@@ -1,0 +1,28 @@
+import { createStore, compose} from 'redux';
+import { syncHistoryWithStore } from 'react-router-redux';
+import { browserHistory} from 'react-router';
+
+import rootReducer from './app/reducers/index';
+
+import counter from './app/data/counterDummy';
+
+const defaultState = {
+    counter
+};
+
+const enhancers = compose(
+    window.devToolsExtension ? window.devToolsExtension() : f => f
+);
+
+const store = createStore(rootReducer, defaultState, enhancers);
+
+export const history = syncHistoryWithStore(browserHistory, store);
+
+if(module.hot) {
+    module.hot.accept('./app/reducers/', () => {
+        const nextRootReducer = require('./app/reducers/index').default;
+        store.replaceReducer(nextRootReducer);
+    });
+}
+
+export default store;
