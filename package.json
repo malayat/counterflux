@@ -2,7 +2,7 @@
   "name": "counterflux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://malayat.github.io/counterflux",
+  "homepage": "https://malayat.github.io/counterflux",
   "keywords": [
     "react",
     "reflux",
@@ -18,7 +18,7 @@
   "author": "Alejandro Ayala",
   "license": "ISC",
   "devDependencies": {
-    "react-scripts": "0.4.3"
+    "react-scripts": "0.6.1"
   },
   "dependencies": {
     "react": "^15.3.2",
