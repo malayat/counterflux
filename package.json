@@ -2,7 +2,6 @@
   "name": "counterflux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://malayat.github.io/counterflux",
   "keywords": [
     "react",
     "reflux",
