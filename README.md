@@ -1,9 +1,9 @@
 # Counter App
-This contains the simple Counter Project App with React, Reflux, React Router and ECMAScript 6/7 syntax.
+This contains the simple Counter Project App with React, Redux, React Router and ECMAScript 6/7 syntax.
 
 ## This project gives you the following:
 * [React](https://facebook.github.io/react/)
-* [Reflux](https://github.com/reflux/refluxjs)
+* [Redux](https://github.com/reactjs/redux)
 * [React Router](https://github.com/reactjs/react-router)
 * [Create React App](https://github.com/facebookincubator/create-react-app)
 
